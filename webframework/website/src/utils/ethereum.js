@@ -1,6 +1,6 @@
-import contractInfo from "../../../../build/contracts/PortfolioFactory.json";
-import portFolio from "../../../../build/contracts/Portfolio.json";
-import employer from "../../../../build/contracts/Employer.json";
+import contractInfo from "./contracts/PortfolioFactory.json";
+import portFolio from "./contracts/Portfolio.json";
+import employer from "./contracts/Employer.json";
 export const getContractInfo = async () => {
   const portFolioABI = contractInfo.abi;
   const deployedAddress = getNetworkId(contractInfo);
