@@ -1,7 +1,7 @@
 version: '3'
 services:
-  webframework:
-    container_name: webframework
+  worldresume:
+    container_name: worldresume
     build: .
     environment:
       - port=${port} 
