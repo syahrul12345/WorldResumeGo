@@ -1,0 +1,14 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Test for contracts",
+  "main": "factory.js",
+  "scripts": {
+    "test": "mocha -t 15000 ./*.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^6.2.0"
+  }
+}
